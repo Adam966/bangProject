@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body,html {
+
+width:100%;
+margin:0;
+padding: 0;
+
+}
+
+/* Main formular zaciatok */
+
+#mainWrapperCenter {
+	
+width:800px;
+height:550px;
+/*background:red;*/
+position:absolute;
+left:50%;
+top:50%;
+
+margin-left:-400px; /* -1/2 width */
+margin-top:-275px; /* -1/2 height */
+
+}
+.text {
+	
+text-align: center;
+vertical-align: middle;
+line-height: 200px;  
+font-size:80px;
+font-family:Verdana, Geneva, sans-serif;
+
+}
+
+#mainLogo {
+	
+height:200px;
+width:800px;
+/*background:#999;*/
+	
+}
+
+.mainUsernameForm {
+	
+text-align:center;
+width:500px;
+height:350px;
+background:#CCC;
+margin:auto;	
+	
+}
+
+.mainUsername {
+
+margin-top:50px;
+width:360px;
+padding:15px 20px;	
+	
+}
+
+.mainEnterIP {
+	
+margin-top:20px;
+width:360px;
+padding:15px 20px;		
+	
+}
+
+.mainSubmit {
+	
+width:405px;	
+padding:15px 20px;	
+margin-top:20px;	
+
+	
+}
+
+#mainRules,#mainSettings,#mainStats {
+	
+width:132px;	
+padding:15px 20px;
+margin-top:20px;
+	
+}
+
+.modalBkg {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content,.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close1,.close2,.close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,.close2:hover,.close3:hover
+.close1:focus,.close2:hover,.close3:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Main formular koniec */
+
+
+/* Game UI start */
+
+
+#gameWrapper {
+	
+background:#CCC;
+width:100%;
+height:100%;
+position:fixed;
+	
+}
+
+.gameChatWrapper {
+	
+height:60px;
+width:150px;
+background:#999;
+position: fixed;
+bottom:0;
+	
+}
+
+#gameTable {
+	
+height:500px;
+width:800px;
+background:#666;
+position:absolute;
+left:50%;
+top:50%;
+
+margin-left:-400px; /* -1/2 width */
+margin-top:-250px; /* -1/2 height */
+
+
+	
+}
