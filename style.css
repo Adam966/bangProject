@@ -11,7 +11,7 @@ padding: 0;
 
 }
 
-/* Main formular zaciatok */
+/* Main formular start */
 
 #mainWrapperCenter {
 	
@@ -79,9 +79,9 @@ margin-top:20px;
 	
 }
 
-#mainRules,#mainSettings,#mainStats {
+#mainRules {
 	
-width:132px;	
+width:405px;	
 padding:15px 20px;
 margin-top:20px;
 	
@@ -102,7 +102,7 @@ margin-top:20px;
 }
 
 /* Modal Content */
-.modal-content,.modal-content2 {
+.modal-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -111,22 +111,23 @@ margin-top:20px;
 }
 
 /* The Close Button */
-.close1,.close2,.close3 {
+.close1 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close1:hover,.close2:hover,.close3:hover
-.close1:focus,.close2:hover,.close3:hover {
+.close1:hover
+.close1:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
 
-/* Main formular koniec */
+/* Main formular end */
+
 
 
 /* Game UI start */
@@ -141,28 +142,77 @@ position:fixed;
 	
 }
 
-.gameChatWrapper {
+#gameTableWrapper {
+
+height:900px;
+width:1500px;
+background:black;
+position:absolute;
+left:50%;
+top:50%;
+margin-left:-750px; /* -1/2 width */
+margin-top:-450px;
+
+
+}
+
+#gameTable {
+	
+height:600px;
+width:1000px;
+background:#666;
+position:absolute;
+left:50%;
+top:50%;
+border-radius:50%;
+margin-left:-500px; /* -1/2 width */
+margin-top:-300px; /* -1/2 height */
+	
+}
+
+
+#gameChatWrapper {
 	
 height:60px;
-width:150px;
+width:180px;
 background:#999;
 position: fixed;
 bottom:0;
 	
 }
 
-#gameTable {
+#gameMainPlayerCards {
 	
-height:500px;
-width:800px;
-background:#666;
-position:absolute;
-left:50%;
-top:50%;
+height:250px;
+width:180px;
+background:#999;
+position: fixed;
+bottom:0;
+right:0;
 
-margin-left:-400px; /* -1/2 width */
-margin-top:-250px; /* -1/2 height */
+}
 
+#gameMainPlayerUI {
+	
+height:250px;
+width:180px;
+background:#999;
+margin:0 auto;
+position:fixed;
+bottom:0;
+right:0;
+left:0;
+	
+}
 
+/* Players */
+
+#player1 {
+	
+height:250px;
+width:180px;
+background:#999;
+right:0;
+left:0;
 	
 }
