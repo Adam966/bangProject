@@ -132,6 +132,12 @@ margin-top:20px;
 
 /* Game UI start */
 
+#gamePlayerCards {
+	
+height:120px;	
+	
+}
+
 
 #gameWrapper {
 	
@@ -142,61 +148,35 @@ position:fixed;
 	
 }
 
-#gameTableWrapper {
-
-height:900px;
-width:1500px;
-background:black;
-position:absolute;
-left:50%;
-top:50%;
-margin-left:-750px; /* -1/2 width */
-margin-top:-450px;
-
-
-}
-
-#gameTable {
-	
-height:600px;
-width:1000px;
-background:#666;
-position:absolute;
-left:50%;
-top:50%;
-border-radius:50%;
-margin-left:-500px; /* -1/2 width */
-margin-top:-300px; /* -1/2 height */
-	
-}
-
 
 #gameChatWrapper {
 	
 height:60px;
 width:180px;
 background:#999;
-position: fixed;
+position:fixed;
 bottom:0;
 	
 }
 
-#gameMainPlayerCards {
-	
-height:250px;
-width:180px;
-background:#999;
-position: fixed;
-bottom:0;
-right:0;
 
+/* Main Player */
+
+#gamePlayerName {
+
+height:40px;
+width:170px;
+background:red;
+text-align:center;
+margin:auto;
+font-size:25px;
+	
 }
 
-#gameMainPlayerUI {
+#gamePlayerWrapper {
 	
-height:250px;
-width:180px;
-background:#999;
+height:270px;
+width:360px;
 margin:0 auto;
 position:fixed;
 bottom:0;
@@ -205,14 +185,104 @@ left:0;
 	
 }
 
-/* Players */
-
-#player1 {
+#gameButtonsWrapper {
 	
-height:250px;
-width:180px;
-background:#999;
-right:0;
-left:0;
+margin-top:50px;
+height:220px;
+width:100px;
+/*background:red;*/
+float:left;	
 	
 }
+
+.gamePassButton { 
+
+height:100px;
+width:100px;
+margin:auto; 
+
+}
+
+
+.gameCardsButton { 
+
+height:100px;
+width:100px;
+margin-top:20px;
+
+
+
+}
+
+#gameCharacterCard {
+	
+height:270px;
+width:170px;
+background:#999;
+margin:auto;
+margin-left:120px;
+/*position:absolute;
+left:50%;
+top:50%;
+
+margin-left:-85px; 
+margin-top:-135px;*/
+
+}
+
+#gameCharacterImage {
+	
+height:190px;
+width:170px;
+margin:auto;
+background:#333;	
+	
+}
+
+#gameCharacterName {
+
+height:40px;
+width:170px;	
+background:yellow;
+text-align:center;
+font-size:25px;
+margin:auto;
+	
+	
+}
+
+#gamePlayerIcons {
+	
+background:blue;
+width:70px;
+height:200px;
+float:right;
+	
+}
+
+#gameIconHealth {
+	
+width:70px;
+height:70px;
+background:#090;
+	
+}
+
+#gameIconGun {
+	
+width:70px;
+height:70px;
+background:#060;
+	
+}
+
+#gameIconRole {
+	
+width:70px;
+height:70px;
+background:#030;
+	
+}
+
+/* Main Player End*/
+
