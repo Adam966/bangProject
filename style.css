@@ -13,7 +13,7 @@ padding: 0;
 
 /* Main formular start */
 
-#mainWrapperCenter {
+#WrapperCenter {
 	
 width:800px;
 height:550px;
@@ -36,7 +36,7 @@ font-family:Verdana, Geneva, sans-serif;
 
 }
 
-#mainLogo {
+#Logo {
 	
 height:200px;
 width:800px;
@@ -44,7 +44,7 @@ width:800px;
 	
 }
 
-.mainUsernameForm {
+.UsernameForm {
 	
 text-align:center;
 width:500px;
@@ -54,7 +54,7 @@ margin:auto;
 	
 }
 
-.mainUsername {
+.Username {
 
 margin-top:50px;
 width:360px;
@@ -62,7 +62,7 @@ padding:15px 20px;
 	
 }
 
-.mainEnterIP {
+.EnterIP {
 	
 margin-top:20px;
 width:360px;
@@ -70,7 +70,7 @@ padding:15px 20px;
 	
 }
 
-.mainSubmit {
+.Submit {
 	
 width:405px;	
 padding:15px 20px;	
@@ -79,7 +79,7 @@ margin-top:20px;
 	
 }
 
-#mainRules {
+#Rules {
 	
 width:405px;	
 padding:15px 20px;
@@ -132,37 +132,152 @@ margin-top:20px;
 
 /* Game UI start */
 
-#gamePlayerCards {
-	
-height:120px;	
-	
-}
-
-
 #gameWrapper {
 	
-background:#CCC;
+/*background:#CCC;*/
 width:100%;
 height:100%;
 position:fixed;
 	
 }
 
-
-#gameChatWrapper {
+#PlayersLeft {
 	
-height:60px;
-width:180px;
-background:#999;
-position:fixed;
-bottom:0;
+width:20%;
+height:100%;
+float:left;
+/*background:#999;*/
+
+}
+	
+#PlayersCenter-Right {
+	
+width:80%;
+height:100%;
+float:right;
+/*background:#666;*/
+
+}
+
+#PlayersCenter {
+	
+width:75%;
+height:100%;
+float:left;
+/*background:green;*/
+	
+}
+ 
+#CenterHalf1 {
+	
+width:100%;
+height:50%;
+/*background:#3FF;*/
+	
+}
+
+#CenterHalf2 {
+	
+width:100%;
+height:50%;
+/*background:#6CF;*/
+	
+}
+
+#PlayersRight {
+
+width:25%;
+height:100%;
+float:right;
+/*background:#000;*/
+
+}
+
+/* Guest Boxes Start*/
+
+.GuestBox1 {
+	
+width:100%;
+height:50%;
+/*background:red;*/
+position: relative;
+
+}
+
+.GuestBox2 {
+	
+width:100%;
+height:50%;
+/*background:#F30;*/
+position: relative;
+	
+}
+
+.GuestBox3 {
+	
+width:50%;
+height:100%;
+/*background:#F30;*/
+float:left;
+position: relative;
+	
+}
+
+.GuestBox4 {
+	
+width:50%;
+height:100%;
+/*background:#C30;*/
+float:right;	
+position: relative;
 	
 }
 
 
+
+
+/* Guests Boxes End*/
+
+#ChatWrapper {
+	
+height:60px;
+width:180px;
+background:#999;
+float:left;
+position:fixed;
+bottom:0;
+left:0;
+	
+}
+
+
+#Players {
+
+width:100%;
+height:70%;
+background:white;
+margin:auto;
+	
+	
+}
+
 /* Main Player */
 
-#gamePlayerName {
+
+#MainPlayerWrapper {
+	
+height:270px;
+width:220px;
+margin:auto;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+	
+}
+
+
+.PlayerName {
 
 height:40px;
 width:170px;
@@ -173,64 +288,16 @@ font-size:25px;
 	
 }
 
-#gamePlayerWrapper {
+.CharacterCard {
 	
-height:270px;
-width:360px;
-margin:0 auto;
-position:fixed;
-bottom:0;
-right:0;
-left:0;
-	
-}
-
-#gameButtonsWrapper {
-	
-margin-top:50px;
-height:220px;
-width:100px;
-/*background:red;*/
-float:left;	
-	
-}
-
-.gamePassButton { 
-
-height:100px;
-width:100px;
-margin:auto; 
-
-}
-
-
-.gameCardsButton { 
-
-height:100px;
-width:100px;
-margin-top:20px;
-
-
-
-}
-
-#gameCharacterCard {
-	
+float:left;
 height:270px;
 width:170px;
 background:#999;
-margin:auto;
-margin-left:120px;
-/*position:absolute;
-left:50%;
-top:50%;
-
-margin-left:-85px; 
-margin-top:-135px;*/
 
 }
 
-#gameCharacterImage {
+.CharacterImage {
 	
 height:190px;
 width:170px;
@@ -239,7 +306,7 @@ background:#333;
 	
 }
 
-#gameCharacterName {
+.CharacterName {
 
 height:40px;
 width:170px;	
@@ -248,41 +315,173 @@ text-align:center;
 font-size:25px;
 margin:auto;
 	
-	
 }
 
-#gamePlayerIcons {
-	
-background:blue;
-width:70px;
-height:200px;
+#IconsWrapper {
+
+height:180px; 
+width:50px; 
+/*background:green; */
 float:right;
-	
+margin:auto;
+
 }
 
-#gameIconHealth {
-	
-width:70px;
-height:70px;
+.IconHealth {
+
+height:50px;
+width:50px;
 background:#090;
-	
+
 }
 
-#gameIconGun {
-	
-width:70px;
-height:70px;
+.IconGun {
+
+height:50px;
+width:50px;
 background:#060;
 	
 }
 
-#gameIconRole {
-	
-width:70px;
-height:70px;
+.IconRole {
+
+height:50px;
+width:50px;
 background:#030;
 	
 }
 
+#PlayerCards {
+	
+width:500px;
+height:270px;
+background:#333;
+float:right;
+position:fixed;
+right:0;
+bottom:0;	
+	
+}
+
+#PlayerCard1 {
+	
+height:100px;
+width:70px;
+background:red;
+margin-top:20px;
+margin-right:10px;
+float:right;
+	
+}
+
+#PlayerCard1:hover {
+	
+-ms-transform: scale(2); /* IE 9 */
+-webkit-transform: scale(2); /* Safari 3-8 */
+transform: scale(2); 
+cursor: pointer;
+
+}
+
 /* Main Player End*/
 
+
+/* Player 1 */
+
+
+#GuestPlayerWrapper {
+	
+height:270px;
+width:300px;
+margin:auto;position: absolute;
+top: 50%; left: 50%;
+transform: translate(-50%,-50%);
+
+/*background:white;*/
+	
+}
+
+
+.GuestPlayerName {
+
+height:40px;
+width:170px;
+background:red;
+text-align:center;
+margin:auto;
+font-size:25px;
+	
+}
+
+.GuestCardCount {
+
+width:80px;
+height:80px;
+background:blue;
+float:left;
+margin-top:190px;
+	
+}
+
+.GuestCharacterCard {
+	
+float:left;
+height:270px;
+width:170px;
+background:#999;
+
+}
+
+.GuestCharacterImage {
+	
+height:190px;
+width:170px;
+margin:auto;
+background:#333;	
+	
+}
+
+.GuestCharacterName {
+
+height:40px;
+width:170px;	
+background:yellow;
+text-align:center;
+font-size:25px;
+margin:auto;
+	
+}
+
+#GuestIconsWrapper {
+
+height:180px; 
+width:50px; 
+/*background:green; */
+float:right;
+margin:auto;
+
+}
+
+.GuestIconHealth {
+
+height:50px;
+width:50px;
+background:#090;
+
+}
+
+.GuestIconGun {
+
+height:50px;
+width:50px;
+background:#060;
+	
+}
+
+.GuestIconRole {
+
+height:50px;
+width:50px;
+background:#030;
+	
+}
