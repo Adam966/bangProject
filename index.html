@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>Bang!</title>
-
-<script src="js/script.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/StyleScript.js"></script>
 <!-- Prepojenie css -->
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
 
-<body onload="modal()">
+<body onLoad="modal()">
 
+<input type="button" id="SettingsButton">
 
 <div id="WrapperCenter">
 
@@ -23,17 +23,28 @@
 	<form class="UsernameForm" >
 	<input type="text" class="Username" placeholder="Enter your name">
     <input type="text" class="EnterIP" placeholder="Enter IP adress of localhost">
-	<input type="button" id="Rules" value="Rules">
-    <input type="button" class="Submit" onclick="Redirect()" value="Play">
+	<input type="button" id="RulesButton" value="Rules">
+    <input type="button" id="PlayButton" class="Submit" value="Play">
 	</form>
     
     <!-- The Modal Rules -->
-    <div id="myModal" class="modalBkg">
+    <div id="RulesModal" class="modalBkg">
 
       <!-- Rules content -->
       <div class="modal-content">
         <span class="close1">×</span>
         <p>rules</p>
+      </div>
+
+    </div>
+    
+     <!-- The Settings Rules -->
+    <div id="SettingsModal" class="modalBkg2">
+
+      <!-- Settings content -->
+      <div class="modal-content2">
+        <span class="close2">×</span>
+        <p>settings</p>
       </div>
 
     </div>
